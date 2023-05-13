@@ -34,7 +34,7 @@
 						on:input={embedTextChange}
 					/>
 				</label>
-				<div class="flex flex-col items-start">
+				<label class="flex flex-col items-start">
 					<span class="font-semibold">Source</span>
 					<input
 						type="text"
@@ -45,7 +45,7 @@
 					<span class="font-thin"
 						>Recommended to add Source URL so that it can be referred by LLM</span
 					>
-				</div>
+				</label>
 				<button class="btn btn-primary self-end">Save</button>
 			</form>
 		</div>

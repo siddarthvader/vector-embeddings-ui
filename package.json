@@ -29,6 +29,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.51.6"
+		"@sveltejs/adapter-vercel": "^2.4.3",
+		"daisyui": "^2.51.6",
+		"svelte-preprocess": "^5.0.3"
 	}
 }
